@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bokmark.css" type="text/css" />
+  </head>
+  <body onload="fetchressult()">
+    <div id="head">
+      <h3>BookMark WebApp</h3>
+      <hr />
+    </div>
+    <div id="wrapper">
+      <header>
+        <h2>Your Favourite BookMark Page</h2>
+        <p class="rem">Save All Your Favorite Websites Here.</p>
+      </header>
+      <form name="myform" id="myform">
+        <label class="inputclass">SiteName</label>
+        <input
+          type="text"
+          class="seem"
+          id="SiteName"
+          name="SiteName"
+          placeholder="Websites name"
+          required
+        />
+        <label class="inputclass">SiteURL</label>
+        <input
+          type="url"
+          class="seem"
+          id="SiteURL"
+          placeholder="Websites Address"
+          required
+        />
+
+        <input type="submit" value="Submit" class="inputclass subm" />
+      </form>
+    </div>
+    <div class="line"><hr /></div>
+    <div id="result">bookmarks result</div>
+    <footer>
+      <p>&copy; BookmarkerByyRaphael, inc</p>
+    </footer>
+    <script src="bookmarker.js"></script>
+  </body>
+</html>

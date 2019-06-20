@@ -1,0 +1,51 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+#head {
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+#wrapper {
+  background: whitesmoke;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 53vh;
+}
+header {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.rem {
+  padding-top: 0;
+}
+#myform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputclass {
+  margin-top: 3vh;
+}
+.seem {
+  width: 20vw;
+  height: 4vh;
+}
+.subm {
+  width: 8vw;
+  height: 6vh;
+}
+.booking {
+  display: flex;
+  border: 1 solid whitesmoke;
+}
+.line {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
